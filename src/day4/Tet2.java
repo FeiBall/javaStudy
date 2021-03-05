@@ -14,7 +14,8 @@ public class Tet2 {
     public static void main(String[] args) {
         Tet2.testFileInputStream();
         Tet2.testFileOutputStream();
-        Tet2.copyFile("D:/test/abc/tt1.txt","D:/test/abc/cc/tt1.txt");
+        Tet2.copyFile("D:/test/abc/tt1.txt","D:/test/abc/cc/tt1.txt");//复制txt文件
+        Tet2.copyFile("D:/test/abc/123.png","D:/test/abc/cc/456.png");//复制txt文件
 
     }
 
@@ -74,7 +75,7 @@ public class Tet2 {
 
             FileOutputStream out=new FileOutputStream(outPath);//复制到那里
 
-            byte[] b=new byte[100];
+            byte[] b=new byte[1000];
             int len=0;
             while((in.read())!=-1){
                 out.write(b,0,len);//写道内存
