@@ -14,6 +14,21 @@ public class Student extends Person implements Move,Study {
         System.out.println("学校是："+school);
     }
 
+
+    public Student(){
+
+    }
+
+    public Student(String school) {
+        this.school = school;
+    }
+
+    private Student(String name,int age){
+        this.name=name;
+        this.age=age;
+    }
+
+
     @Override
     public void moveType() {
         System.out.println("走路上学");
