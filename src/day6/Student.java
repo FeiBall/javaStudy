@@ -39,4 +39,18 @@ public class Student extends Person implements Move,Study {
         System.out.println("学习的是中学知识");
 
     }
+
+    private void test(String name){
+        System.out.println("调用的是私有方法private void test(String name)");
+    }
+
+    public String getSchool(){
+        return this.school;
+    }
+
+    public void setInfo(String school,String name){
+        this.school=school;
+        this.name=name;
+        System.out.println("这是public String setInfo(String school,String name)方法");
+    }
 }
