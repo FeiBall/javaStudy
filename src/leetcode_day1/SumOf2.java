@@ -22,4 +22,5 @@ public class SumOf2 {
         return new int[0];
     }
 
+
 }
