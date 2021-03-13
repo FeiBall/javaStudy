@@ -10,7 +10,7 @@ public class Q25合并2个排好序的链表 {
     public class ListNode{
         int val;
         ListNode next;
-        ListNode(int val){return this.val=val}
+        ListNode(int val){this.val=val;}
     }
 
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
