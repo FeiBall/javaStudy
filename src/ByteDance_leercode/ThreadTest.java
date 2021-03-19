@@ -72,5 +72,6 @@ public class ThreadTest {
         new Thread(jiClass).start();
         new Thread(ouClass).start();
     }
+
 }
 

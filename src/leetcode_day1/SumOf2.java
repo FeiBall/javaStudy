@@ -22,5 +22,11 @@ public class SumOf2 {
         return new int[0];
     }
 
+    public static void main(String[] args) {
+        SumOf2 a=new SumOf2();
+
+        System.out.println(a.twoSum(new int[]{1,3,5,91},8));
+    }
+
 
 }
